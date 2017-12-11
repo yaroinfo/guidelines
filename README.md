@@ -1,7 +1,7 @@
 # Yaro's guidelines
--
+
 ![Yaro software](http://yaro.info/assets/brand/yaro-logo-rb-software.png)
--
+
 
 ### List of guidelines contents
 
