@@ -2,8 +2,7 @@
 
 [![Yaro software](http://yaro.info/assets/brand/yaro-logo-rb-software.png)](http://yaro.info)
 
-Our website: [www.yaro.info](http://yaro.info)
-
+Our website: [www.yaro.info](http://yaro.info)  
 Our e-mail: <i@yaro.info>
 
 -
