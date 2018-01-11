@@ -1,7 +1,9 @@
-# Yaro's guidelines
+# Yaro guidelines
 
-![Yaro software](http://yaro.info/assets/brand/yaro-logo-rb-software.png)
+[![Yaro software](http://yaro.info/assets/brand/yaro-logo-rb-software@05x.png)](http://yaro.info)
+[www.yaro.info](http://yaro.info)
 
+This repository contains step-by-step instructions to improve efficiency of team in every department. 
 
 ### List of guidelines contents
 
@@ -9,6 +11,8 @@
   - [Development](https://github.com/yaroinfo/guidelines/blob/master/web/development.md)
   - [Design](https://github.com/yaroinfo/guidelines/blob/master/web/design.md)
 - [SEO](https://github.com/yaroinfo/guidelines/blob/master/seo/README.md)
+  - [Coding](https://github.com/yaroinfo/guidelines/blob/master/seo/coding.md)
   - [Content](https://github.com/yaroinfo/guidelines/blob/master/seo/content.md)
 - [Company](https://github.com/yaroinfo/guidelines/blob/master/company/README.md)
   - [Branding](https://github.com/yaroinfo/guidelines/blob/master/company/branding.md)
+  - [Financing](https://github.com/yaroinfo/guidelines/blob/master/company/financing.md)
