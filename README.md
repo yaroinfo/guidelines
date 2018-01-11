@@ -1,9 +1,12 @@
 # Yaro guidelines
 
-[![Yaro software](http://yaro.info/assets/brand/yaro-logo-rb-software@05x.png)](http://yaro.info)
+[![Yaro software](http://yaro.info/assets/brand/yaro-logo-rb-software.png)](http://yaro.info)
 
 Our website: [www.yaro.info](http://yaro.info)
+
 Our e-mail: <i@yaro.info>
+
+-
 
 This repository contains step-by-step instructions to improve efficiency of team in every department. 
 
