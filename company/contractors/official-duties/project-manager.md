@@ -10,10 +10,10 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 - Every project __MUST HAVE__: __versions__ _(at least one)_, __sprints__ _(at least one)_, __backlog__.  
 - Every project starts with __MVP version__ _(Minimum Viable Product)_. Every version __MUST HAVE__ at least one sprint (milestone for client).
-- All user stories for project dirived from [product manager](./product-manager).
-- PM __MUST__ estimate (with a team) every story and convert each story into task(s), __MUST__ happen at [sprint perspective](sprint-perspective).
-- PM __MUST__ check every day the status of project, and if it delays the sprint PM finds a problem and solution and notifies [product manager](./product-manager) if deadline __must be__ shifted.
-- PM __MUST__ analyse every sprint with a team on it's [retrospective](sprint-retrospective) and work on errors.
+- All user stories for project dirived from [product manager](./product-manager.md).
+- PM __MUST__ estimate (with a team) every story and convert each story into task(s), __MUST__ happen at [sprint perspective](#sprint-perspective).
+- PM __MUST__ check every day the status of project, and if it delays the sprint PM finds a problem and solution and notifies [product manager](./product-manager.md) if deadline __must be__ shifted.
+- PM __MUST__ analyse every sprint with a team on it's [retrospective](#sprint-retrospective) and work on errors.
 
 ## Task requirements
 
@@ -34,4 +34,4 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 - Provide __solutions__ based on __sprint retrospective__.
 - Create `teamfix` issues to implement __solutions__.
 - Close sprint when all issues are closed, including all `teamfix`.
-- Notify [product manager](./product-manager) when milestone/sprint (project) is done & LIVE.
+- Notify [product manager](./product-manager.md) when milestone/sprint (project) is done & LIVE.
