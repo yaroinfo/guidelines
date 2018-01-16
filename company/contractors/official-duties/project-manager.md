@@ -1,6 +1,7 @@
 # Project manager
 official duties / job responsibilities
 
+
 ## Job description
 
 Project management responsibilities include delivering every project on time within budget and scope.
@@ -15,12 +16,23 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 - PM __MUST__ check every day the status of project, and if it delays the sprint PM finds a problem and solution and notifies [product manager](./product-manager.md) if deadline __must be__ shifted.
 - PM __MUST__ analyse every sprint with a team on it's [retrospective](#sprint-retrospective) and work on errors.
 
+
 ## Task requirements
 
 - Minimum estimated time - __5m__ (bug `hotfix`).  
 - Maximum estimated time - __5h__, if task is longer than __5h__ it must be divided into sub-tasks.  
 - Minimum billable time - __0m__, for bug `hotfix` if up to date (service period after delivering project).  
 - Service period - __3 months__.
+
+
+## Sprint requirements
+
+* Day includes maximum __6 hours__ for one person
+* Minimum sprint length - __1 week__ (if less - too much time will be spent on perspectives and retrospectives, meetings)
+	* __30 hours__ per person (including `hotfix`es)
+* Maximum sprint length - __2 weeks__ (if more - less retrospective so no such rapid improvement of team)
+	* __60 hours__ per person (including `hotfix`es)
+
 
 ## Sprint perspective
 
