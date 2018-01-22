@@ -19,7 +19,7 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 ## Task requirements
 
-* [Basic task requirements here](./project-management.md#task-requirements).
+* [Basic task requirements here](../../project-management.md#task-requirements).
 * Service period - __1 month__, means after project is complete and LIVE it is only 1 month when `HOTFIX`es are free, after this period all `HOTFIX`es become `EXTRA` tasks.
 
 

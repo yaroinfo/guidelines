@@ -53,11 +53,11 @@ When estimating a story - first divide story into imaginary tasks and estimate e
 * Minimum billable time - __0m__, for bug `hotfix` if up to date (service period after delivering project).  
 * Task labels
   * `HOTFIX` - hot fix / bug in maintenance period which is free to fix.
-  * `TEAMFIX` - team improvement, created on every [sprint retrospective](./project-manager.md#sprint-retrospective) to improve working process
+  * `TEAMFIX` - team improvement, created on every [sprint retrospective](../official-duties/project-manager.md#sprint-retrospective) to improve working process
   * `FEEDBACK` - client feedback stories, after discussion `EXTRA` or `HOTFIX` label __MUST__ be added
   * `EXTRA` - task which was not in scope when project was planned, but added later, but client __MUST__ pay for it
   * `ESTIMATE` - user story to estimate and get approval of estimate from client
   * `CONTENT` - content updates
   * `QUESTION` - question to client, something is not clear
-  * No label - estimated task for developer or tester
+  * __no label__ - estimated task for developer or tester
 
