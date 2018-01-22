@@ -19,10 +19,8 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 ## Task requirements
 
-- Minimum estimated time - __5m__ (bug `hotfix`).  
-- Maximum estimated time - __5h__, if task is longer than __5h__ it must be divided into sub-tasks.  
-- Minimum billable time - __0m__, for bug `hotfix` if up to date (service period after delivering project).  
-- Service period - __3 months__.
+* [Basic task requirements here](./project-management.md#task-requirements).
+* Service period - __1 month__, means after project is complete and LIVE it is only 1 month when `HOTFIX`es are free, after this period all `HOTFIX`es become `EXTRA` tasks.
 
 
 ## Sprint requirements
