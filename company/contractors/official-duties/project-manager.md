@@ -19,7 +19,7 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 ## Task requirements
 
-* [Basic task requirements here](../../project-management.md#task-requirements).
+* [Basic task requirements here](https://github.com/yaroinfo/guidelines/blob/master/company/project-management.md#task-requirements).
 * Service period - __1 month__, means after project is complete and LIVE it is only 1 month when `HOTFIX`es are free, after this period all `HOTFIX`es become `EXTRA` tasks.
 
 
@@ -27,9 +27,9 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 * Day includes maximum __6 hours__ for one person
 * Minimum sprint length - __1 week__ (if less - too much time will be spent on perspectives and retrospectives, meetings)
-	* __30 hours__ per person (including `hotfix`es)
+	* __30 hours__ per person (including `HOTFIX`es)
 * Maximum sprint length - __2 weeks__ (if more - less retrospective so no such rapid improvement of team)
-	* __60 hours__ per person (including `hotfix`es)
+	* __60 hours__ per person (including `HOTFIX`es)
 
 
 ## Sprint perspective
@@ -42,6 +42,6 @@ Working with [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 - Analyse every sprint at __sprint retrospective__.
 - Provide __solutions__ based on __sprint retrospective__.
-- Create `teamfix` issues to implement __solutions__.
-- Close sprint when all issues are closed, including all `teamfix`.
+- Create `TEAMFIX` issues to implement __solutions__.
+- Close sprint when all issues are closed, including all `TEAMFIX`.
 - Notify [product manager](./product-manager.md) when milestone/sprint (project) is done & LIVE.
