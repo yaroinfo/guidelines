@@ -1,8 +1,8 @@
 # Project contract guideline 
 
-__Project__ __contract__ must wrap every project with it's goals, specifications and requirements defined in document.  
-__Contract__ must define deadline for every milestone and consequenses of delaying deadlines from every part.
-__Contract__ must define invoicing procedures, acts of delivery.
+* __Project__ __contract__ must wrap every project with it's goals, specifications and requirements defined in document.
+* __Contract__ must define deadline for every milestone and consequenses of delaying deadlines from every part.
+* __Contract__ must define invoicing procedures, acts of delivery.
 
 
 ## Every contract must define
