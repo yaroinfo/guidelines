@@ -1,5 +1,7 @@
 # Website development
 
+Before start read [Design requirements for websites](https://github.com/yaroinfo/guidelines/blob/master/web/design.md).
+
 ## Web application strategy
 
 We have chosen **RenderOnBackendOnly** strategy. So website visitors deal only with HTML files and REST API. This strategy allows to build super fast loading websites and provides great performance for website users.
