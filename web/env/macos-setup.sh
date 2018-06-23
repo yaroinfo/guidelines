@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# for Sublime be sure to install packages:
+# - Sublimelinter
+# - Sublimelinter-php
+# - Sublimelinter-phpcs
+# - Sublimelinter-phplint
+
 # --- Set up PHP linter ---
 	checkPhpcsInstalled() {
 		if [[ `which phpcs` =~ phpcs\/scripts\/phpcs$ ]]; then
