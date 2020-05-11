@@ -1,0 +1,152 @@
+@startuml
+
+' SDLC (Software Development Life Cycle) Phases, Methodologies, Process, And Models
+' https://www.softwaretestinghelp.com/software-development-life-cycle-sdlc/
+
+' start date
+Project starts the 20th of May 2020
+
+' weekly | daily | monthly
+printscale daily
+
+' closed weekends
+saturday are closed
+sunday are closed
+
+' days closed
+2020/06/01 is closed
+2020/06/02 is closed
+
+
+-- 0. Customer Request --
+[The Customer has an Idea] as [Idea] lasts 5 days
+'     Customer->Sales:   I have an idea, I need a solution
+'     Sales->Customer:   Let's discuss your idea
+'     Customer<-->Sales: Discussing an idea
+[Send a brief to the Customer & response] as [Brief] lasts 2 days
+'     Sales->Customer:   Send a link to a specific brief document
+'     Customer->Sales:   Fills in the brief
+
+[Brief] starts at [Idea]'s end
+[Idea] is colored in LightGreen
+[Brief] is colored in LightGreen
+
+
+-- 1. Requirement gathering and analysis --
+[Brief analysis and questions/answers] as [BA] lasts 2 days
+'     Sales->Manager:    Sends the project
+'     Manager<-->Team:   Discussing and estimating
+[Estimate the project and its tasks] as [Estimate] lasts 2 days
+'     Manager<-->Team:   Discussing and estimating
+[Send estimated project to the Customer] as [Estimated] lasts 2 days
+'     Manager->Sales:    The estimated project\n1. Costs and time\n2. Project plan
+'     Sales->Customer:   The estimated project
+[The Customer agreed, Contract, Invoice, Payment] as [Contract] lasts 3 day
+'     Customer->Sales:   The answer: Yes or No (if no stop here)
+'     Manager->Customer: Sends documents:\n1. Contract\n2. Invoice
+'     Customer->Manager: Sign up documents and pay invoice
+
+[BA] starts at [Brief]'s end
+[Estimate] starts at [BA]'s end
+[Estimated] starts at [Estimate]'s end
+[Contract] starts at [Estimated]'s end
+[BA] is colored in LightCoral
+[Estimate] is colored in LightCoral
+[Estimated] is colored in LightGreen
+[Contract] is colored in LightGreen
+[Agreed and paid] happens at [Contract]'s end and is colored in Black
+[1st payment] happens at [Contract]'s end and is colored in Black
+
+
+-- 2. Design --
+[Define tasks and milestones] as [Tasks] lasts 1 day
+'     Manager->Team:     Define tasks and milestones
+[Designing a prototype] as [Prototype] lasts 5 days
+'     Team->Team:        Designing a prototype
+'     Team->Manager:     Prototype design
+
+'     loop Maximum 2 iterations
+
+'         Manager->Customer:  Approve the prototype with the Customer
+'         Customer->Manager:  Implement some changes
+'         Manager->Team:      Task with changes to implement
+'         Team->Team:         Implementing changes
+'         Team->Manager:      Updated prototype design
+'         Manager-->Customer: Approve the prototype with the Customer
+
+'     end
+
+[Tasks] starts at [Contract]'s end
+[Prototype] starts at [Tasks]'s end
+[Tasks] is colored in LightCoral
+[Prototype] is colored in LightCoral
+[Prototype completed] happens at [Prototype]'s end and is colored in Black
+[2nd payment] happens at [Prototype]'s end and is colored in Black
+
+
+-- 3. Implementation & Coding --
+[Define coding tasks and milestones] as [CodingTasks] lasts 1 day
+'     Manager->Team:     Define tasks and milestones
+[Developing all the tasks] as [Coding] lasts 10 days
+'     Team->Application: Developing all the tasks
+
+[CodingTasks] starts at [Prototype]'s end and is colored in LightCoral
+' [Coding] starts at [CodingTasks]'s end and is colored in LightCoral
+[Development complete] happens at [Coding]'s end and is colored in Black
+[3rd payment] happens at [Coding]'s end and is colored in Black
+
+
+-- 4. Testing --
+[Define testing tasks] as [TestingTasks] lasts 1 day
+'     Manager->Team:     Define tasks
+[Testing all the tasks] as [Testing] lasts 10 day
+'     Team->Application: Testing all the tasks
+
+[TestingTasks] starts at [Prototype]'s end and is colored in LightCoral
+
+
+-- 5. Deployment --
+[Define a deployment task] as [DeployTask] lasts 1 day
+'     Manager->Team:        Define a deployment task
+[Setup CI/CD pipelines] as [CICD] lasts 1 day
+'     Team->Application:    Setup CI/CD pipelines
+[Approve with the Customer] as [Approve] lasts 2 days
+[Going LiVE] as [LiVE] lasts 1 day
+'     Team->Application:    Going LiVE
+'     Application->Manager: Everything is ready, check this out
+'     Manager->Customer:    Informs the customer on project completion
+'     Manager->Sales:       Asks to send documents to the Customer
+'     Customer->Manager:    Accepts the project
+'     Sales->Customer:      Sends a second invoice and acceptance document
+'     Customer->Sales:      Pays the invoice and approve 
+
+[DeployTask] starts at [Prototype]'s end and is colored in LightCoral
+[CICD] starts at [DeployTask]'s end and is colored in LightCoral
+[Coding] starts at [CICD]'s end and is colored in LightCoral
+[Testing] starts 5 days before [Coding]'s end and is colored in LightCoral
+[Approve] starts at [Testing]'s end and is colored in LightGreen
+[LiVE] starts at [Approve]'s end and is colored in LightGreen
+[Project complete] happens at [LiVE]'s end and is colored in Black
+[4th/final payment] happens at [LiVE]'s end and is colored in Black
+
+
+-- 6. Maintenance --
+[1 month of free SLA] as [FreeSLA] lasts 23 days
+[Sell SLA for the next year] as [SLA] lasts 1 day
+'     Sales<-->Customer:    Discussing the SLA agreement
+'     Sales->Customer:      Sends SLA document to sign
+'     Customer->Sales:      Sign up the document and send back
+'     loop SLA months/years
+
+'         Manager->Team:        Define tasks and milestones
+'         Team->Application:    Developing all the tasks
+'         Team->Application:    Testing all the tasks
+'         Manager->Customer:    Informs the customer on project completion
+
+'     end
+
+[FreeSLA] starts at [LiVE]'s end and is colored in LightGoldenRodYellow
+[Project is really complete] happens at [FreeSLA]'s end and is colored in Black
+[SLA] starts at [FreeSLA]'s end and is colored in Red
+
+@enduml
